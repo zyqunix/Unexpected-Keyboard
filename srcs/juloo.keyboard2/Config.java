@@ -235,6 +235,7 @@ public final class Config
           return R.style.MonetLight;
         return R.style.MonetDark;
       case "rosepine": return R.style.RosePine;
+      case "lavande": return R.style.Lavande;
       default:
       case "system":
         if ((night_mode & Configuration.UI_MODE_NIGHT_NO) != 0)

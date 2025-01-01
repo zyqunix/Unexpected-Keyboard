@@ -203,7 +203,7 @@
     <item name="emoji_button_bg">?colorKeyActivated</item>
     <item name="emoji_color">@android:color/system_neutral1_900</item>
   </style>
-  <style name="RosePine" parent="BaseTheme">
+  <style name="RosePine" parent="@style/BaseTheme">
     <item name="android:isLightTheme">false</item>
     <item name="colorKeyboard">#191724</item>
     <item name="colorKey">#26233a</item>
@@ -218,6 +218,25 @@
     <item name="colorLabelActivated">#c4a7e7</item>
     <item name="colorLabelLocked">#31748f</item>
     <item name="colorSubLabel">#6e6a86</item>
+    <item name="keyBorderRadius">1dp</item>
+    <item name="emoji_button_bg">#26233a</item>
+    <item name="emoji_color">#e0def4</item>
+  </style>
+  <style name="Lavande" parent="@style/BaseTheme">
+    <item name="android:isLightTheme">false</item>
+    <item name="colorKeyboard">#1b1b1b</item>
+    <item name="colorKey">#333333</item>
+    <item name="colorKeyActivated">#404040</item>
+    <item name="keyBorderWidth">0dp</item>
+    <item name="keyBorderWidthActivated">1dp</item>
+    <item name="keyBorderColorLeft">#3e3d3f</item>
+    <item name="keyBorderColorTop">#3e3d3f</item>
+    <item name="keyBorderColorRight">#3e3d3f</item>
+    <item name="keyBorderColorBottom">#3e3d3f</item>
+    <item name="colorLabel">#e0def4</item>
+    <item name="colorLabelActivated">#c099ff</item>
+    <item name="colorLabelLocked">#E5D5FF</item>
+    <item name="colorSubLabel">#555076</item>
     <item name="keyBorderRadius">1dp</item>
     <item name="emoji_button_bg">#26233a</item>
     <item name="emoji_color">#e0def4</item>
